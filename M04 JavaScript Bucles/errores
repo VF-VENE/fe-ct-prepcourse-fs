@@ -1,0 +1,48 @@
+switch(color){
+      case "blue":{return "This is blue";}
+      case "red": {return "This is red";}
+      case "green": {return "This is green";}
+      case "orange": {return "This is orange";}
+default: {return "Color not found";}
+   }
+
+
+   if (num % 2 === 0) {return true;}
+   else {return false;} 
+
+   function fizzBuzz(num) {
+    // Si "num" es divisible entre 3, retorna "fizz".
+    // Si "num" es divisible entre 5, retorna "buzz".
+    // Si "num" es divisible entre 3 y 5 (ambos), retorna "fizzbuzz".
+    // De lo contrario, retorna false.
+    // Tu código:
+    if (num % 3 === 0) {return "fizz";}
+    if (num % 5 === 0) {return "buzz";}
+    if (num % 3 && num % 5 === 0) {return "fizzbuzz";}
+    else {return false}
+ }
+
+
+ if (num % 3 === 0) {return "fizz";}
+ if (num % 5 === 0) {return "buzz";}
+ else if (num % 3 === 0 && num % 5 === 0) {return "fizzbuzz";}
+ else {return false}
+
+
+ if (num1>1 && num1> num2 && num1> num3 ) {return "Numero 1 es mayor y positivo";}
+   else if (num1 <1 ||num2 <1||num3 <1 ) {return "Hay negativos";}
+   else if (num3 > num1 && num3 > num2) {return num3 + 1}
+   else if (num1 === 0 && num2 === 0 && num3 === 0) { return "Error";}
+   else {return false}
+
+
+   if (num1 > num2 && num1 > num3 && num1 > 0) { return "Numero 1 es mayor y positivo"; }
+   else if (num1 < 0 || num2 < 0 || num3 < 0) {return "Hay negativos";} 
+   else if (num3 > num1 && num3 > num2) {return num3 + 1;} 
+   else if (num1 === 0 && num2 === 0 && num3 === 0) {return "Error";}
+   else {return false;}
+
+   const frutas = ["Manzana", "Banana", "Naranja", "Pera"];
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
