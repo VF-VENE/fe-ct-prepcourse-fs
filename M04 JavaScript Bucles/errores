@@ -42,7 +42,18 @@ default: {return "Color not found";}
    else if (num1 === 0 && num2 === 0 && num3 === 0) {return "Error";}
    else {return false;}
 
-   const frutas = ["Manzana", "Banana", "Naranja", "Pera"];
-for (let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+   var contador= 0
+
+   do (num += 5 );
+   while (contador = 8) {return num}
+
+   let contador = 0;
+
+   do {
+       num += 5;
+       contador++;
+   } while (contador < 8);
+
+   return num;
 }
+
