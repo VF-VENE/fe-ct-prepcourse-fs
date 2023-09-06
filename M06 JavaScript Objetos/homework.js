@@ -144,7 +144,9 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
     return this.precio - (this.precio * this.porcentajeDeDescuento)
    }
    return objetoProducto;
-}
+} 
+// el enunciado esta dentro de una funcion, por lo que tenes dos contextos, 
+//un return es de la funcion agregarMetodoCalculoDescuento y otro de la funcion que esta dentro de ella.
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
